@@ -38,7 +38,7 @@ Built during my internship at Elevate Labs.
 
 **1. Clone the repo**
 ```bash
-git clone https://github.com/yourusername/log-analyzer.git
+git clone https://github.com/harshhhhh10/log-file-analyzer-intrusion-detection.git
 cd log-analyzer
 ```
 
