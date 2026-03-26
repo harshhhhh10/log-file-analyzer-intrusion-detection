@@ -1,0 +1,5 @@
+{
+  "logs_dir": "logs",
+  "bruteforce_limit": 3,
+  "dos_limit": 4
+}

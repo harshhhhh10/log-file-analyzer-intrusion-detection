@@ -1,0 +1,8 @@
+# output files
+report.txt
+graphs/
+
+# python
+__pycache__/
+*.pyc
+.env
