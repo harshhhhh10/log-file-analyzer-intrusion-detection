@@ -124,3 +124,9 @@ Add IPs to `blacklist.txt`, one per line. Any match from the SSH log gets flagge
 - Regex
 - Pandas
 - Matplotlib
+
+---
+### 🛠️ Recent Security Updates (April 2026)
+* **Detection Fix:** I identified a bug where the parser was missing "invalid user" attempts in SSH logs. I've updated the regex to be more flexible (using lazy matching), which closed this visibility gap.
+* **IP Correlation:** The tool now checks both SSH and Apache logs against the blacklist. This prevents attackers from hiding their activity by switching protocols.
+* **Code Documentation:** Added detailed comments to the main logic to explain the "why" behind the detection thresholds.
